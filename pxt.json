@@ -1,0 +1,31 @@
+{
+    "name": "arrow test",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-scaling": "github:jwunderl/pxt-scaling#v0.1.0",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.4.1",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "darts": "*",
+        "browser-events": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.48",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
